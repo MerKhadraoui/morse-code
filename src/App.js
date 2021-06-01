@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+
 import Data from "./data.json";
 function App() {
-  const data = Data.map((item) => item);
+  const [userInput, setUserInput] = useState("");
+  const data = Data.map((prop) => console.log(prop));
   return (
     <React.Fragment>
-      <Header />
-      <Footer />
+      <Header userInput={setUserInput} />
     </React.Fragment>
   );
 }
