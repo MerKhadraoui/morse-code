@@ -1,7 +1,4 @@
-const morseCode = require("morse-code-js");
 const Footer = () => {
-  const nume = "meriem";
-  console.log(morseCode.morse(nume));
-  return <div className="footer"> this is footer</div>;
+  return <div className="footer"> hi</div>;
 };
 export default Footer;

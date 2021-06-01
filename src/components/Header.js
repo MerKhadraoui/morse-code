@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import Data from "./data.json";
+
 const Header = () => {
   const [userCode, setUserCode] = useState("");
   function changeHandle(e) {
-    console.log(e.target.value);
+    console.log(userCode);
     setUserCode(e.target.value);
   }
   function submitHandle(e) {
