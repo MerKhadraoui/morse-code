@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(143, 184, 184);
+}
+.header,
+.footer {
+  margin-top: 3rem;
+  height: 30vh;
+  width: 40vw;
+  border: 2px red dashed;
+}
