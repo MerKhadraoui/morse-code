@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.js": "/MerKhadraoui/morse-code/static/js/main.4f7fd593.chunk.js",
-    "main.js.map": "/MerKhadraoui/morse-code/static/js/main.4f7fd593.chunk.js.map",
+    "main.css": "/MerKhadraoui/morse-code/static/css/main.a52285b5.chunk.css",
+    "main.js": "/MerKhadraoui/morse-code/static/js/main.82ad0d45.chunk.js",
+    "main.js.map": "/MerKhadraoui/morse-code/static/js/main.82ad0d45.chunk.js.map",
     "runtime-main.js": "/MerKhadraoui/morse-code/static/js/runtime-main.b2f231f7.js",
     "runtime-main.js.map": "/MerKhadraoui/morse-code/static/js/runtime-main.b2f231f7.js.map",
-    "static/js/2.a8c444bf.chunk.js": "/MerKhadraoui/morse-code/static/js/2.a8c444bf.chunk.js",
-    "static/js/2.a8c444bf.chunk.js.map": "/MerKhadraoui/morse-code/static/js/2.a8c444bf.chunk.js.map",
+    "static/js/2.897dcab2.chunk.js": "/MerKhadraoui/morse-code/static/js/2.897dcab2.chunk.js",
+    "static/js/2.897dcab2.chunk.js.map": "/MerKhadraoui/morse-code/static/js/2.897dcab2.chunk.js.map",
     "index.html": "/MerKhadraoui/morse-code/index.html",
-    "static/js/2.a8c444bf.chunk.js.LICENSE.txt": "/MerKhadraoui/morse-code/static/js/2.a8c444bf.chunk.js.LICENSE.txt"
+    "static/css/main.a52285b5.chunk.css.map": "/MerKhadraoui/morse-code/static/css/main.a52285b5.chunk.css.map",
+    "static/js/2.897dcab2.chunk.js.LICENSE.txt": "/MerKhadraoui/morse-code/static/js/2.897dcab2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b2f231f7.js",
-    "static/js/2.a8c444bf.chunk.js",
-    "static/js/main.4f7fd593.chunk.js"
+    "static/js/2.897dcab2.chunk.js",
+    "static/css/main.a52285b5.chunk.css",
+    "static/js/main.82ad0d45.chunk.js"
   ]
 }
