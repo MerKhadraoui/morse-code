@@ -3,12 +3,11 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Data from "./data.json";
 function App() {
-  const [transCode, setTransCode] = useState("");
-
+  const data = Data.map((item) => item);
   return (
     <React.Fragment>
       <Header />
-      <Footer transCode={setTransCode} />
+      <Footer />
     </React.Fragment>
   );
 }

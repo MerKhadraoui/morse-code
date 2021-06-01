@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import Data from "./data.json";
-
-const Header = () => {
+const Header = (props) => {
   const [userCode, setUserCode] = useState("");
   function changeHandle(e) {
     console.log(userCode);
@@ -10,7 +8,7 @@ const Header = () => {
   function submitHandle(e) {
     e.preventDefault();
   }
-
+  console.log(props.Data);
   return (
     <form onSubmit={submitHandle} className="header">
       <input type="text" value={userCode} onChange={changeHandle} />
