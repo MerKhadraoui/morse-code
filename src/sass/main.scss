@@ -6,10 +6,34 @@ body {
   padding: 0;
   background-color: rgb(143, 184, 184);
 }
-.header,
-.footer {
-  margin-top: 3rem;
-  height: 30vh;
-  width: 40vw;
-  border: 2px red dashed;
+
+.container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(64, 173, 224, 0.301);
+}
+
+h3 {
+  padding: 1rem;
+  margin: auto;
+  font-size: 2rem;
+}
+
+form {
+  margin: auto;
+  padding: 0.5rem;
+  border-radius: 10%;
+}
+
+label {
+  font-family: monospace;
+  padding: 1rem 0.5rem;
+  background: transparent;
+}
+
+textarea {
+  border: 5px solid transparent;
+  padding: 1rem;
+  outline: none;
 }
