@@ -25,7 +25,7 @@ Since many natural languages use more than the 26 letters of the Latin alphabet,
 ## Technologies:
 
 - `React`
-- `nod.js`
+- `npm`
 - `Scss`
 - `Javascript`
 
